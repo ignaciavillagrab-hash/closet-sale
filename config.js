@@ -9,7 +9,7 @@ window.SITE_CONFIG = {
 
   // Sube este número cada vez que reemplaces fotos, para forzar que el navegador
   // descargue la versión nueva en vez de usar la copia guardada en caché.
-  IMG_VERSION: 2,
+  IMG_VERSION: 3,
 
   BANK_INFO: {
     nombre: "Maria Villagra",
