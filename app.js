@@ -102,7 +102,7 @@ function cardHTML(it, estado) {
       <div class="meta">${metaParts.join(" · ")}</div>
       <div class="price">${formatCLP(it.precio)}</div>
     </div>
-    <a class="buy-btn" href="${waLink(it.item, it.descripcion, it.precio)}" target="_blank">Comprar por WhatsApp</a>
+    <a class="buy-btn" href="${waLink(it.item, it.descripcion, it.precio)}" target="_blank">Comprar</a>
   </div>`;
 }
 
@@ -165,7 +165,10 @@ async function main() {
 
     let html = "";
     cats.forEach(cat => {
-      html += `<div class="category-title">${cat}</div>`;
+      const precios = byCat[cat].map(({ it }) => it.precio);
+      const min = Math.min(...precios), max = Math.max(...precios);
+      const rango = min === max ? formatCLP(min) : `${formatCLP(min)} - ${formatCLP(max)}`;
+      html += `<div class="category-title">${cat} <span style="font-weight:400; font-size:0.85rem; color:var(--muted);">(${rango})</span></div>`;
       const list = byCat[cat].sort((a, b) => {
         const rank = s => s.estado === "vendido" ? 2 : s.estado === "reservado" ? 1 : 0;
         return rank(a) - rank(b);
