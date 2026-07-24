@@ -2180,7 +2180,7 @@
     "descripcion": "Mocasines Sybilla - Talla 39",
     "marca": "Sybilla",
     "talla": "39",
-    "precio": null,
+    "precio": 5000,
     "nuevo": false,
     "fotos": [
       "I179_1.jpg",
@@ -2193,7 +2193,7 @@
     "descripcion": "Sandalias Cuero - Talla 39",
     "marca": "",
     "talla": "39",
-    "precio": null,
+    "precio": 5000,
     "nuevo": false,
     "fotos": [
       "I180_1.jpg",
@@ -2206,7 +2206,7 @@
     "descripcion": "Zapatillas Reebok - Talla 8(1).5 US",
     "marca": "",
     "talla": "8",
-    "precio": null,
+    "precio": 10000,
     "nuevo": false,
     "fotos": [
       "I181_1.jpg",

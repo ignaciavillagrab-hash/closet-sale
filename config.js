@@ -7,6 +7,10 @@ window.SITE_CONFIG = {
 
   WHATSAPP_NUMBER: "56981365719",
 
+  // Sube este número cada vez que reemplaces fotos, para forzar que el navegador
+  // descargue la versión nueva en vez de usar la copia guardada en caché.
+  IMG_VERSION: 2,
+
   BANK_INFO: {
     nombre: "Maria Villagra",
     rut: "19.323.461-5",

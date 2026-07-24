@@ -63,7 +63,8 @@ function waLink(item, desc, precio) {
 }
 
 function cardHTML(it, estado) {
-  const photos = it.fotos.map(f => `images/${f}`);
+  const v = CFG.IMG_VERSION || 1;
+  const photos = it.fotos.map(f => `images/${f}?v=${v}`);
   const isSold = estado === "vendido";
   const isReserved = estado === "reservado";
   const stateClass = isSold ? "sold" : (isReserved ? "reserved" : "");
@@ -140,8 +141,15 @@ async function main() {
   }
 
   const categorias = [...new Set(catalog.map(i => i.categoria))];
-  chipsEl.innerHTML = `<div class="chip active" data-cat="__all__">Todo</div>` +
-    categorias.map(c => `<div class="chip" data-cat="${c}">${c}</div>`).join("");
+  const chipLabel = (cat) => {
+    const precios = catalog.filter(i => i.categoria === cat).map(i => i.precio).filter(p => p != null);
+    if (!precios.length) return cat;
+    const min = Math.min(...precios), max = Math.max(...precios);
+    const rango = min === max ? formatCLP(min) : `${formatCLP(min)}-${formatCLP(max)}`;
+    return `${cat} <span class="range">(${rango})</span>`;
+  };
+  chipsEl.innerHTML = `<div class="chip active" data-cat="__all__">Todo (${formatCLP(2000)}-${formatCLP(20000)})</div>` +
+    categorias.map(c => `<div class="chip" data-cat="${c}">${chipLabel(c)}</div>`).join("");
 
   let activeCat = "__all__";
   let query = "";
