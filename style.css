@@ -64,20 +64,24 @@ header.hero p { margin: 0 0 16px; opacity: 0.9; font-size: 0.92rem; }
 }
 .rules .bank strong { color: var(--accent); }
 
-.controls {
-  max-width: 1100px;
-  margin: 0 auto 10px;
-  padding: 0 14px;
-  display: flex;
-  gap: 10px;
-  flex-wrap: wrap;
-  align-items: center;
+.controls-sticky {
   position: sticky;
   top: 0;
   background: var(--bg);
   z-index: 5;
   padding-top: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.controls {
+  max-width: 1100px;
+  margin: 0 auto 8px;
+  padding: 0 14px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 #search {
@@ -88,7 +92,14 @@ header.hero p { margin: 0 0 16px; opacity: 0.9; font-size: 0.92rem; }
   font-size: 0.95rem;
 }
 
-.chips { display: flex; gap: 6px; flex-wrap: wrap; }
+.chips {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 14px;
+}
 .chip {
   border: 1px solid var(--border);
   background: #fff;
@@ -101,6 +112,16 @@ header.hero p { margin: 0 0 16px; opacity: 0.9; font-size: 0.92rem; }
 }
 .chip.active { background: var(--accent); color: #fff; border-color: var(--accent); }
 .chip .range { opacity: 0.75; font-size: 0.72rem; }
+
+@media (max-width: 640px) {
+  .chips {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: 2px;
+  }
+  .chip { flex: 0 0 auto; }
+}
 
 #status { text-align: center; color: var(--muted); font-size: 0.85rem; margin: 6px 0 4px; }
 
