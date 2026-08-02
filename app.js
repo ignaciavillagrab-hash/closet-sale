@@ -104,7 +104,7 @@ function cardHTML(it, info) {
 
   const badge = it.nuevo ? `<div class="badge">NUEVO</div>` : "";
   const entregaBadge = info.entregaEspecial
-    ? `<div class="badge badge-entrega">📦 Entrega 1ª semana sept.</div>` : "";
+    ? `<div class="badge badge-entrega">📦 Entrega: Lun 31 Ago – Sáb 5 Sept</div>` : "";
 
   const metaParts = [];
   if (it.marca) metaParts.push(it.marca);
@@ -114,11 +114,11 @@ function cardHTML(it, info) {
   <div class="card ${stateClass}" data-item="${it.item}" data-cat="${it.categoria}"
        data-search="${(it.item + " " + it.descripcion + " " + it.marca + " " + it.categoria).toLowerCase()}">
     ${badge}
-    ${entregaBadge}
     <div class="carousel">
       ${imgs}
       ${nav}
       ${stamp}
+      ${entregaBadge}
     </div>
     <div class="info">
       <div class="item-no">Item #${it.item.replace(/^I/, "")}</div>
