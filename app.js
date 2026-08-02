@@ -174,13 +174,12 @@ async function main() {
 
   const gruposPresentes = GRUPO_ORDER.filter(g => catalog.some(i => i.grupo === g));
 
-  chipsGrupoEl.innerHTML = `<div class="chip chip-grupo active" data-grupo="__all__">Todo (${priceRange(catalog)})</div>` +
-    gruposPresentes.map(g => {
-      const items = catalog.filter(i => i.grupo === g);
-      return `<div class="chip chip-grupo" data-grupo="${g}">${GRUPO_LABEL[g] || g} (${priceRange(items)})</div>`;
+  chipsGrupoEl.innerHTML = gruposPresentes.map((g, i) => {
+      const items = catalog.filter(i2 => i2.grupo === g);
+      return `<div class="chip chip-grupo${i === 0 ? " active" : ""}" data-grupo="${g}">${GRUPO_LABEL[g] || g} (${priceRange(items)})</div>`;
     }).join("");
 
-  let activeGrupo = "__all__";
+  let activeGrupo = gruposPresentes[0] || "__all__";
   let activeCat = "__all__";
   let query = "";
 
