@@ -1,5 +1,8 @@
 const CFG = window.SITE_CONFIG;
 
+const GRUPO_ORDER = ["CLOSET", "CASA", "LIBROS"];
+const GRUPO_LABEL = { CLOSET: "👗 CLOSET", CASA: "🏠 CASA", LIBROS: "📚 LIBROS" };
+
 function parseCSV(text) {
   const rows = [];
   let row = [], field = "", inQuotes = false;
@@ -39,20 +42,36 @@ function normalizeEstado(v) {
   return "disponible";
 }
 
-async function loadStatusMap() {
+function normalizeSiNo(v) {
+  return (v || "").trim().toLowerCase().startsWith("si");
+}
+
+async function loadStatusMap(timeoutMs = 8000) {
   const map = {};
   if (!CFG.SHEET_CSV_URL) return map;
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), timeoutMs);
   try {
-    const res = await fetch(CFG.SHEET_CSV_URL + (CFG.SHEET_CSV_URL.includes("?") ? "&" : "?") + "cb=" + Date.now());
+    const res = await fetch(
+      CFG.SHEET_CSV_URL + (CFG.SHEET_CSV_URL.includes("?") ? "&" : "?") + "cb=" + Date.now(),
+      { signal: controller.signal }
+    );
     if (!res.ok) throw new Error("HTTP " + res.status);
     const text = await res.text();
     const rows = parseCSV(text);
     rows.forEach(r => {
       const item = (r.Item || r.item || "").trim();
-      if (item) map[item] = normalizeEstado(r.Estado || r.estado);
+      if (item) {
+        map[item] = {
+          estado: normalizeEstado(r.Estado || r.estado),
+          entregaEspecial: normalizeSiNo(r.EntregaEspecial || r.entregaEspecial)
+        };
+      }
     });
   } catch (e) {
     console.warn("No se pudo cargar el estado en vivo desde el Sheet:", e);
+  } finally {
+    clearTimeout(timer);
   }
   return map;
 }
@@ -62,9 +81,10 @@ function waLink(item, desc, precio) {
   return `https://wa.me/${CFG.WHATSAPP_NUMBER}?text=${encodeURIComponent(msg)}`;
 }
 
-function cardHTML(it, estado) {
+function cardHTML(it, info) {
   const v = CFG.IMG_VERSION || 1;
   const photos = it.fotos.map(f => `images/${f}?v=${v}`);
+  const estado = info.estado || "disponible";
   const isSold = estado === "vendido";
   const isReserved = estado === "reservado";
   const stateClass = isSold ? "sold" : (isReserved ? "reserved" : "");
@@ -83,6 +103,8 @@ function cardHTML(it, estado) {
     : isReserved ? `<div class="stamp reserved"><span>RESERVADO</span></div>` : "";
 
   const badge = it.nuevo ? `<div class="badge">NUEVO</div>` : "";
+  const entregaBadge = info.entregaEspecial
+    ? `<div class="badge badge-entrega">📦 Entrega 1ª semana sept.</div>` : "";
 
   const metaParts = [];
   if (it.marca) metaParts.push(it.marca);
@@ -92,6 +114,7 @@ function cardHTML(it, estado) {
   <div class="card ${stateClass}" data-item="${it.item}" data-cat="${it.categoria}"
        data-search="${(it.item + " " + it.descripcion + " " + it.marca + " " + it.categoria).toLowerCase()}">
     ${badge}
+    ${entregaBadge}
     <div class="carousel">
       ${imgs}
       ${nav}
@@ -121,71 +144,109 @@ function attachCarousel(card) {
   card.querySelector(".nav.next").addEventListener("click", (e) => { e.preventDefault(); show(idx + 1); });
 }
 
+function priceRange(items) {
+  const precios = items.map(i => i.precio).filter(p => p != null);
+  if (!precios.length) return "";
+  const min = Math.min(...precios), max = Math.max(...precios);
+  return min === max ? formatCLP(min) : `${formatCLP(min)}-${formatCLP(max)}`;
+}
+
 async function main() {
   const statusEl = document.getElementById("status");
   const gridEl = document.getElementById("grid");
+  const chipsGrupoEl = document.getElementById("chips-grupo");
   const chipsEl = document.getElementById("chips");
   const searchEl = document.getElementById("search");
 
-  const [catalog, statusMap] = await Promise.all([
-    fetch("data/catalog.json").then(r => r.json()),
-    loadStatusMap()
-  ]);
+  statusEl.textContent = "Cargando catálogo...";
 
-  if (!CFG.SHEET_CSV_URL) {
-    statusEl.textContent = "⚠️ Aún no está conectado el Google Sheet — todos los items se muestran como disponibles.";
-  } else if (Object.keys(statusMap).length === 0) {
-    statusEl.textContent = "⚠️ No se pudo leer el estado en vivo del Sheet — mostrando catálogo base.";
-  } else {
-    statusEl.textContent = `Catálogo actualizado. ${catalog.length} items en total.`;
+  let catalog;
+  try {
+    const res = await fetch("data/catalog.json");
+    catalog = await res.json();
+  } catch (e) {
+    statusEl.textContent = "⚠️ No se pudo cargar el catálogo. Revisa tu conexión y recarga la página.";
+    console.error(e);
+    return;
   }
 
-  const categorias = [...new Set(catalog.map(i => i.categoria))];
-  const chipLabel = (cat) => {
-    const precios = catalog.filter(i => i.categoria === cat).map(i => i.precio).filter(p => p != null);
-    if (!precios.length) return cat;
-    const min = Math.min(...precios), max = Math.max(...precios);
-    const rango = min === max ? formatCLP(min) : `${formatCLP(min)}-${formatCLP(max)}`;
-    return `${cat} <span class="range">(${rango})</span>`;
-  };
-  chipsEl.innerHTML = `<div class="chip active" data-cat="__all__">Todo (${formatCLP(2000)}-${formatCLP(20000)})</div>` +
-    categorias.map(c => `<div class="chip" data-cat="${c}">${chipLabel(c)}</div>`).join("");
+  let statusMap = {};
 
+  const gruposPresentes = GRUPO_ORDER.filter(g => catalog.some(i => i.grupo === g));
+
+  chipsGrupoEl.innerHTML = `<div class="chip chip-grupo active" data-grupo="__all__">Todo (${priceRange(catalog)})</div>` +
+    gruposPresentes.map(g => {
+      const items = catalog.filter(i => i.grupo === g);
+      return `<div class="chip chip-grupo" data-grupo="${g}">${GRUPO_LABEL[g] || g} (${priceRange(items)})</div>`;
+    }).join("");
+
+  let activeGrupo = "__all__";
   let activeCat = "__all__";
   let query = "";
 
+  function renderCategoriaChips() {
+    const base = activeGrupo === "__all__" ? catalog : catalog.filter(i => i.grupo === activeGrupo);
+    const categorias = [...new Set(base.map(i => i.categoria))];
+    const chipLabel = (cat) => {
+      const items = catalog.filter(i => i.categoria === cat);
+      const rango = priceRange(items);
+      return `${cat}${rango ? ` <span class="range">(${rango})</span>` : ""}`;
+    };
+    chipsEl.innerHTML = `<div class="chip active" data-cat="__all__">Todas</div>` +
+      categorias.map(c => `<div class="chip" data-cat="${c}">${chipLabel(c)}</div>`).join("");
+    activeCat = "__all__";
+  }
+
   function render() {
-    const byCat = {};
-    catalog.forEach(it => {
-      if (activeCat !== "__all__" && it.categoria !== activeCat) return;
-      const estado = statusMap[it.item] || "disponible";
+    const filtered = catalog.filter(it => {
+      if (activeGrupo !== "__all__" && it.grupo !== activeGrupo) return false;
+      if (activeCat !== "__all__" && it.categoria !== activeCat) return false;
       const searchable = (it.item + " " + it.descripcion + " " + it.marca + " " + it.categoria).toLowerCase();
-      if (query && !searchable.includes(query)) return;
-      byCat[it.categoria] = byCat[it.categoria] || [];
-      byCat[it.categoria].push({ it, estado });
+      if (query && !searchable.includes(query)) return false;
+      return true;
     });
 
-    const cats = Object.keys(byCat);
-    if (!cats.length) {
+    if (!filtered.length) {
       gridEl.innerHTML = `<div class="empty">No se encontraron items.</div>`;
       return;
     }
 
+    const byGrupo = {};
+    filtered.forEach(it => {
+      byGrupo[it.grupo] = byGrupo[it.grupo] || {};
+      byGrupo[it.grupo][it.categoria] = byGrupo[it.grupo][it.categoria] || [];
+      byGrupo[it.grupo][it.categoria].push(it);
+    });
+
     let html = "";
-    cats.forEach(cat => {
-      const precios = byCat[cat].map(({ it }) => it.precio);
-      const min = Math.min(...precios), max = Math.max(...precios);
-      const rango = min === max ? formatCLP(min) : `${formatCLP(min)} - ${formatCLP(max)}`;
-      html += `<div class="category-title">${cat} <span style="font-weight:400; font-size:0.85rem; color:var(--muted);">(${rango})</span></div>`;
-      const list = byCat[cat].sort((a, b) => {
-        const rank = s => s.estado === "vendido" ? 2 : s.estado === "reservado" ? 1 : 0;
-        return rank(a) - rank(b);
+    GRUPO_ORDER.filter(g => byGrupo[g]).forEach(grupo => {
+      const grupoItems = Object.values(byGrupo[grupo]).flat();
+      html += `<div class="grupo-title">${GRUPO_LABEL[grupo] || grupo} <span class="range">(${priceRange(grupoItems)})</span></div>`;
+      Object.keys(byGrupo[grupo]).forEach(cat => {
+        const items = byGrupo[grupo][cat];
+        html += `<div class="category-title">${cat} <span style="font-weight:400; font-size:0.85rem; color:var(--muted);">(${priceRange(items)})</span></div>`;
+        const list = items.slice().sort((a, b) => {
+          const infoA = statusMap[a.item] || {};
+          const infoB = statusMap[b.item] || {};
+          const rank = s => s.estado === "vendido" ? 2 : s.estado === "reservado" ? 1 : 0;
+          return rank(infoA) - rank(infoB);
+        });
+        html += list.map(it => cardHTML(it, statusMap[it.item] || {})).join("");
       });
-      html += list.map(({ it, estado }) => cardHTML(it, estado)).join("");
     });
     gridEl.innerHTML = html;
     gridEl.querySelectorAll(".card").forEach(attachCarousel);
   }
+
+  chipsGrupoEl.addEventListener("click", (e) => {
+    const chip = e.target.closest(".chip-grupo");
+    if (!chip) return;
+    chipsGrupoEl.querySelectorAll(".chip-grupo").forEach(c => c.classList.remove("active"));
+    chip.classList.add("active");
+    activeGrupo = chip.dataset.grupo;
+    renderCategoriaChips();
+    render();
+  });
 
   chipsEl.addEventListener("click", (e) => {
     const chip = e.target.closest(".chip");
@@ -201,7 +262,23 @@ async function main() {
     render();
   });
 
+  renderCategoriaChips();
+  statusEl.textContent = `${catalog.length} items en total.`;
   render();
+
+  if (CFG.SHEET_CSV_URL) {
+    loadStatusMap().then((map) => {
+      statusMap = map;
+      if (Object.keys(map).length === 0) {
+        statusEl.textContent = "⚠️ No se pudo leer el estado en vivo del Sheet — mostrando catálogo base.";
+      } else {
+        statusEl.textContent = `Catálogo actualizado. ${catalog.length} items en total.`;
+      }
+      render();
+    });
+  } else {
+    statusEl.textContent = "⚠️ Aún no está conectado el Google Sheet — todos los items se muestran como disponibles.";
+  }
 }
 
 main();
