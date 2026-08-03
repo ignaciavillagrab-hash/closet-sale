@@ -11,6 +11,10 @@ window.SITE_CONFIG = {
   // descargue la versión nueva en vez de usar la copia guardada en caché.
   IMG_VERSION: 4,
 
+  // Sube este número cada vez que edites catalog.json (orden de fotos, precios, etc.)
+  // para forzar que el navegador descargue la versión nueva del catálogo.
+  DATA_VERSION: 2,
+
   BANK_INFO: {
     nombre: "Maria Villagra",
     rut: "19.323.461-5",

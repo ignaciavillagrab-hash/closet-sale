@@ -162,7 +162,7 @@ async function main() {
 
   let catalog;
   try {
-    const res = await fetch("data/catalog.json");
+    const res = await fetch("data/catalog.json?v=" + (CFG.DATA_VERSION || 1));
     catalog = await res.json();
   } catch (e) {
     statusEl.textContent = "⚠️ No se pudo cargar el catálogo. Revisa tu conexión y recarga la página.";
