@@ -13,7 +13,7 @@ window.SITE_CONFIG = {
 
   // Sube este número cada vez que edites catalog.json (orden de fotos, precios, etc.)
   // para forzar que el navegador descargue la versión nueva del catálogo.
-  DATA_VERSION: 3,
+  DATA_VERSION: 4,
 
   BANK_INFO: {
     nombre: "Maria Villagra",
