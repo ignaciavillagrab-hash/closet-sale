@@ -5026,5 +5026,18 @@
     "fotos": [
       "L59_1.jpg"
     ]
+  },
+  {
+    "item": "I318",
+    "grupo": "CASA",
+    "categoria": "Plantas",
+    "descripcion": "Planta 7 Interior",
+    "marca": "",
+    "talla": "",
+    "precio": 5000,
+    "nuevo": false,
+    "fotos": [
+      "I318_1.jpg"
+    ]
   }
 ]
