@@ -133,15 +133,60 @@ function cardHTML(it, info) {
 function attachCarousel(card) {
   const imgs = [...card.querySelectorAll(".carousel img")];
   const dots = [...card.querySelectorAll(".dots span")];
-  if (imgs.length <= 1) return;
   let idx = 0;
   function show(n) {
     idx = (n + imgs.length) % imgs.length;
     imgs.forEach((im, i) => im.classList.toggle("active", i === idx));
     dots.forEach((d, i) => d.classList.toggle("active", i === idx));
   }
-  card.querySelector(".nav.prev").addEventListener("click", (e) => { e.preventDefault(); show(idx - 1); });
-  card.querySelector(".nav.next").addEventListener("click", (e) => { e.preventDefault(); show(idx + 1); });
+  if (imgs.length > 1) {
+    card.querySelector(".nav.prev").addEventListener("click", (e) => { e.preventDefault(); show(idx - 1); });
+    card.querySelector(".nav.next").addEventListener("click", (e) => { e.preventDefault(); show(idx + 1); });
+  }
+  imgs.forEach(im => {
+    im.addEventListener("click", () => openLightbox(imgs.map(i => i.src), idx));
+  });
+}
+
+let lightboxState = { srcs: [], idx: 0 };
+
+function openLightbox(srcs, idx) {
+  lightboxState = { srcs, idx };
+  renderLightbox();
+  document.getElementById("lightbox").classList.add("open");
+}
+
+function closeLightbox() {
+  document.getElementById("lightbox").classList.remove("open");
+}
+
+function lightboxNav(dir) {
+  const { srcs } = lightboxState;
+  lightboxState.idx = (lightboxState.idx + dir + srcs.length) % srcs.length;
+  renderLightbox();
+}
+
+function renderLightbox() {
+  const { srcs, idx } = lightboxState;
+  document.getElementById("lightbox-img").src = srcs[idx];
+  document.getElementById("lightbox-counter").textContent = srcs.length > 1 ? `${idx + 1} / ${srcs.length}` : "";
+  const navEls = document.querySelectorAll(".lightbox-nav");
+  navEls.forEach(n => n.style.display = srcs.length > 1 ? "flex" : "none");
+}
+
+function initLightbox() {
+  document.getElementById("lightbox-close").addEventListener("click", closeLightbox);
+  document.getElementById("lightbox-prev").addEventListener("click", (e) => { e.stopPropagation(); lightboxNav(-1); });
+  document.getElementById("lightbox-next").addEventListener("click", (e) => { e.stopPropagation(); lightboxNav(1); });
+  document.getElementById("lightbox").addEventListener("click", (e) => {
+    if (e.target.id === "lightbox") closeLightbox();
+  });
+  document.addEventListener("keydown", (e) => {
+    if (!document.getElementById("lightbox").classList.contains("open")) return;
+    if (e.key === "Escape") closeLightbox();
+    if (e.key === "ArrowLeft") lightboxNav(-1);
+    if (e.key === "ArrowRight") lightboxNav(1);
+  });
 }
 
 function priceRange(items) {
@@ -280,4 +325,5 @@ async function main() {
   }
 }
 
+initLightbox();
 main();

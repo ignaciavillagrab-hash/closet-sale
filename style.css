@@ -308,3 +308,60 @@ footer {
 }
 
 .empty { text-align: center; color: var(--muted); padding: 40px; grid-column: 1/-1; }
+
+.carousel img { cursor: zoom-in; }
+
+.lightbox {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(10, 8, 12, 0.92);
+  z-index: 100;
+  align-items: center;
+  justify-content: center;
+}
+.lightbox.open { display: flex; }
+.lightbox img {
+  max-width: 92vw;
+  max-height: 88vh;
+  object-fit: contain;
+  border-radius: 8px;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+}
+.lightbox-close {
+  position: absolute;
+  top: 16px;
+  right: 20px;
+  color: #fff;
+  font-size: 1.8rem;
+  cursor: pointer;
+  z-index: 101;
+  line-height: 1;
+  padding: 6px 10px;
+}
+.lightbox-nav {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 18%;
+  min-width: 50px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-size: 2.6rem;
+  cursor: pointer;
+  user-select: none;
+  z-index: 101;
+}
+.lightbox-prev { left: 0; justify-content: flex-start; padding-left: 10px; }
+.lightbox-next { right: 0; justify-content: flex-end; padding-right: 10px; }
+.lightbox-counter {
+  position: absolute;
+  bottom: 18px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: #fff;
+  opacity: 0.8;
+  font-size: 0.85rem;
+}
