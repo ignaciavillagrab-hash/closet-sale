@@ -2281,13 +2281,14 @@
     "descripcion": "Bototos Trekking_Nieve Impermeables Columbia Talla 39",
     "marca": "Columbia",
     "talla": "39",
-    "precio": 15000,
+    "precio": 5000,
     "nuevo": false,
     "fotos": [
       "I169_1.jpg",
       "I169_2.jpg"
     ],
-    "grupo": "CLOSET"
+    "grupo": "REMATE FINAL",
+    "precioAnterior": 15000
   },
   {
     "item": "I170",
