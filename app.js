@@ -227,7 +227,8 @@ async function main() {
 
   chipsGrupoEl.innerHTML = gruposPresentes.map((g, i) => {
       const items = catalog.filter(i2 => i2.grupo === g);
-      return `<div class="chip chip-grupo${i === 0 ? " active" : ""}" data-grupo="${g}">${GRUPO_LABEL[g] || g} (${priceRange(items)})</div>`;
+      const remateClass = g === "REMATE FINAL" ? " chip-remate" : "";
+      return `<div class="chip chip-grupo${remateClass}${i === 0 ? " active" : ""}" data-grupo="${g}">${GRUPO_LABEL[g] || g} (${priceRange(items)})</div>`;
     }).join("");
 
   let activeGrupo = gruposPresentes[0] || "__all__";
@@ -271,7 +272,8 @@ async function main() {
     let html = "";
     GRUPO_ORDER.filter(g => byGrupo[g]).forEach(grupo => {
       const grupoItems = Object.values(byGrupo[grupo]).flat();
-      html += `<div class="grupo-title">${GRUPO_LABEL[grupo] || grupo} <span class="range">(${priceRange(grupoItems)})</span></div>`;
+      const grupoTitleClass = grupo === "REMATE FINAL" ? "grupo-title grupo-title-remate" : "grupo-title";
+      html += `<div class="${grupoTitleClass}">${GRUPO_LABEL[grupo] || grupo} <span class="range">(${priceRange(grupoItems)})</span></div>`;
       Object.keys(byGrupo[grupo]).forEach(cat => {
         const items = byGrupo[grupo][cat];
         html += `<div class="category-title">${cat} <span style="font-weight:400; font-size:0.85rem; color:var(--muted);">(${priceRange(items)})</span></div>`;
