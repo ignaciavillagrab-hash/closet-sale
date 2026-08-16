@@ -31,12 +31,13 @@
     "descripcion": "Bufanda Animal Print",
     "marca": "",
     "talla": "",
-    "precio": 3000,
+    "precio": 1000,
     "nuevo": false,
     "fotos": [
       "I3_1.jpg"
     ],
-    "grupo": "CLOSET"
+    "grupo": "REMATE FINAL",
+    "precioAnterior": 3000
   },
   {
     "item": "I4",
@@ -57,13 +58,14 @@
     "descripcion": "Bufanda Gruesa Verde",
     "marca": "",
     "talla": "",
-    "precio": 3000,
+    "precio": 1500,
     "nuevo": false,
     "fotos": [
       "I5_1.jpg",
       "I5_2.jpg"
     ],
-    "grupo": "CLOSET"
+    "grupo": "REMATE FINAL",
+    "precioAnterior": 3000
   },
   {
     "item": "I6",
@@ -71,12 +73,13 @@
     "descripcion": "Bufanda Diseño Burdeo",
     "marca": "",
     "talla": "",
-    "precio": 3000,
+    "precio": 1000,
     "nuevo": false,
     "fotos": [
       "I6_1.jpg"
     ],
-    "grupo": "CLOSET"
+    "grupo": "REMATE FINAL",
+    "precioAnterior": 3000
   },
   {
     "item": "I7",
@@ -84,12 +87,13 @@
     "descripcion": "Bufanda Gris_Rosado",
     "marca": "",
     "talla": "",
-    "precio": 3000,
+    "precio": 1000,
     "nuevo": false,
     "fotos": [
       "I7_1.jpg"
     ],
-    "grupo": "CLOSET"
+    "grupo": "REMATE FINAL",
+    "precioAnterior": 3000
   },
   {
     "item": "I8",
@@ -97,12 +101,13 @@
     "descripcion": "Gorro Rosado Peludo",
     "marca": "",
     "talla": "",
-    "precio": 3000,
+    "precio": 1000,
     "nuevo": false,
     "fotos": [
       "I8_1.jpg"
     ],
-    "grupo": "CLOSET"
+    "grupo": "REMATE FINAL",
+    "precioAnterior": 3000
   },
   {
     "item": "I9",
@@ -110,12 +115,13 @@
     "descripcion": "Cintillo Café H&M",
     "marca": "H&M",
     "talla": "",
-    "precio": 3000,
+    "precio": 1000,
     "nuevo": false,
     "fotos": [
       "I9_1.jpg"
     ],
-    "grupo": "CLOSET"
+    "grupo": "REMATE FINAL",
+    "precioAnterior": 3000
   },
   {
     "item": "I10",
@@ -136,12 +142,13 @@
     "descripcion": "Gorro Rojo",
     "marca": "",
     "talla": "",
-    "precio": 3000,
+    "precio": 1000,
     "nuevo": false,
     "fotos": [
       "I11_1.jpg"
     ],
-    "grupo": "CLOSET"
+    "grupo": "REMATE FINAL",
+    "precioAnterior": 3000
   },
   {
     "item": "I12",
@@ -201,12 +208,13 @@
     "descripcion": "Banano de Viaje_Seguridad",
     "marca": "",
     "talla": "",
-    "precio": 2000,
+    "precio": 1000,
     "nuevo": false,
     "fotos": [
       "I16_1.jpg"
     ],
-    "grupo": "CLOSET"
+    "grupo": "REMATE FINAL",
+    "precioAnterior": 2000
   },
   {
     "item": "I17",
@@ -266,12 +274,13 @@
     "descripcion": "Cartera Cruzada Negra_Cadenas",
     "marca": "",
     "talla": "",
-    "precio": 3000,
+    "precio": 1000,
     "nuevo": false,
     "fotos": [
       "I21_1.jpg"
     ],
-    "grupo": "CLOSET"
+    "grupo": "REMATE FINAL",
+    "precioAnterior": 3000
   },
   {
     "item": "I22",
@@ -320,12 +329,13 @@
     "descripcion": "Cartera Chica Cruzada Negra",
     "marca": "",
     "talla": "",
-    "precio": 3000,
+    "precio": 1000,
     "nuevo": false,
     "fotos": [
       "I25_1.jpg"
     ],
-    "grupo": "CLOSET"
+    "grupo": "REMATE FINAL",
+    "precioAnterior": 3000
   },
   {
     "item": "I26",
@@ -346,13 +356,14 @@
     "descripcion": "Banano Running Cinturón Decathlon Talla 2",
     "marca": "CAT",
     "talla": "2",
-    "precio": 10000,
+    "precio": 5000,
     "nuevo": false,
     "fotos": [
       "I27_1.jpg",
       "I27_2.jpg"
     ],
-    "grupo": "CLOSET"
+    "grupo": "REMATE FINAL",
+    "precioAnterior": 10000
   },
   {
     "item": "I28",
@@ -360,12 +371,13 @@
     "descripcion": "Morral Nike Negro",
     "marca": "Nike",
     "talla": "",
-    "precio": 5000,
+    "precio": 2500,
     "nuevo": false,
     "fotos": [
       "I28_1.jpg"
     ],
-    "grupo": "CLOSET"
+    "grupo": "REMATE FINAL",
+    "precioAnterior": 5000
   },
   {
     "item": "I29",
@@ -439,12 +451,13 @@
     "descripcion": "Short Running Rosado Talla S",
     "marca": "",
     "talla": "S",
-    "precio": 2000,
+    "precio": 1000,
     "nuevo": false,
     "fotos": [
       "I34_1.jpg"
     ],
-    "grupo": "CLOSET"
+    "grupo": "REMATE FINAL",
+    "precioAnterior": 2000
   },
   {
     "item": "I35",
@@ -465,12 +478,13 @@
     "descripcion": "Bikers Rosadas Diadora Talla XL",
     "marca": "Diadora",
     "talla": "XL",
-    "precio": 2000,
+    "precio": 1000,
     "nuevo": false,
     "fotos": [
       "I36_1.jpg"
     ],
-    "grupo": "CLOSET"
+    "grupo": "REMATE FINAL",
+    "precioAnterior": 2000
   },
   {
     "item": "I37",
@@ -571,13 +585,14 @@
     "descripcion": "Peto Deportivo Negro Adidas Talla M",
     "marca": "Adidas",
     "talla": "M",
-    "precio": 5000,
+    "precio": 2500,
     "nuevo": false,
     "fotos": [
       "I44_1.jpg",
       "I44_2.jpg"
     ],
-    "grupo": "CLOSET"
+    "grupo": "REMATE FINAL",
+    "precioAnterior": 5000
   },
   {
     "item": "I45",
@@ -651,12 +666,13 @@
     "descripcion": "Pijama Mickey_Minnie Talla S",
     "marca": "",
     "talla": "S",
-    "precio": 2000,
+    "precio": 1000,
     "nuevo": false,
     "fotos": [
       "I50_1.jpg"
     ],
-    "grupo": "CLOSET"
+    "grupo": "REMATE FINAL",
+    "precioAnterior": 2000
   },
   {
     "item": "I51",
@@ -664,12 +680,13 @@
     "descripcion": "Pijama Stitch Talla 16",
     "marca": "",
     "talla": "16",
-    "precio": 2000,
+    "precio": 1000,
     "nuevo": false,
     "fotos": [
       "I51_1.jpg"
     ],
-    "grupo": "CLOSET"
+    "grupo": "REMATE FINAL",
+    "precioAnterior": 2000
   },
   {
     "item": "I52",
@@ -677,12 +694,13 @@
     "descripcion": "Short Pijama Lineas Rosado Talla S",
     "marca": "",
     "talla": "S",
-    "precio": 2000,
+    "precio": 1000,
     "nuevo": false,
     "fotos": [
       "I52_1.jpg"
     ],
-    "grupo": "CLOSET"
+    "grupo": "REMATE FINAL",
+    "precioAnterior": 2000
   },
   {
     "item": "I53",
@@ -703,12 +721,13 @@
     "descripcion": "Sosten Bikini Azul Talla XL",
     "marca": "",
     "talla": "XL",
-    "precio": 2000,
+    "precio": 1000,
     "nuevo": false,
     "fotos": [
       "I54_1.jpg"
     ],
-    "grupo": "CLOSET"
+    "grupo": "REMATE FINAL",
+    "precioAnterior": 2000
   },
   {
     "item": "I55",
@@ -716,12 +735,13 @@
     "descripcion": "Bikini Rosado Talla M",
     "marca": "",
     "talla": "M",
-    "precio": 2000,
+    "precio": 1000,
     "nuevo": false,
     "fotos": [
       "I55_1.jpg"
     ],
-    "grupo": "CLOSET"
+    "grupo": "REMATE FINAL",
+    "precioAnterior": 2000
   },
   {
     "item": "I56",
@@ -742,12 +762,13 @@
     "descripcion": "Sostenes Copa Negro y Beige Talla 38D",
     "marca": "",
     "talla": "38D",
-    "precio": 2000,
+    "precio": 1000,
     "nuevo": false,
     "fotos": [
       "I57_1.jpg"
     ],
-    "grupo": "CLOSET"
+    "grupo": "REMATE FINAL",
+    "precioAnterior": 2000
   },
   {
     "item": "I58",
@@ -768,12 +789,13 @@
     "descripcion": "Sosten Lencero con Copa Blanco Talla 36C",
     "marca": "",
     "talla": "36C",
-    "precio": 2000,
+    "precio": 1000,
     "nuevo": false,
     "fotos": [
       "I59_1.jpg"
     ],
-    "grupo": "CLOSET"
+    "grupo": "REMATE FINAL",
+    "precioAnterior": 2000
   },
   {
     "item": "I60",
@@ -794,12 +816,13 @@
     "descripcion": "Sosten Rosado Encaje Flores Talla 36C",
     "marca": "",
     "talla": "36C",
-    "precio": 2000,
+    "precio": 1000,
     "nuevo": false,
     "fotos": [
       "I61_1.jpg"
     ],
-    "grupo": "CLOSET"
+    "grupo": "REMATE FINAL",
+    "precioAnterior": 2000
   },
   {
     "item": "I62",
@@ -833,12 +856,13 @@
     "descripcion": "Falda Short Jeans Zara Talla XS",
     "marca": "Zara",
     "talla": "XS",
-    "precio": 5000,
+    "precio": 2000,
     "nuevo": false,
     "fotos": [
       "I64_1.jpg"
     ],
-    "grupo": "CLOSET"
+    "grupo": "REMATE FINAL",
+    "precioAnterior": 5000
   },
   {
     "item": "I65",
@@ -887,12 +911,13 @@
     "descripcion": "Jeans Azul Claro Mom H&M Talla 34",
     "marca": "H&M",
     "talla": "34",
-    "precio": 5000,
+    "precio": 2000,
     "nuevo": false,
     "fotos": [
       "I68_1.jpg"
     ],
-    "grupo": "CLOSET"
+    "grupo": "REMATE FINAL",
+    "precioAnterior": 5000
   },
   {
     "item": "I69",
@@ -913,12 +938,13 @@
     "descripcion": "Jeans Claro Straight Cut Talla 34 Stradivarius",
     "marca": "Stradivarius",
     "talla": "34",
-    "precio": 5000,
+    "precio": 2000,
     "nuevo": false,
     "fotos": [
       "I70_1.jpg"
     ],
-    "grupo": "CLOSET"
+    "grupo": "REMATE FINAL",
+    "precioAnterior": 5000
   },
   {
     "item": "I71",
@@ -939,12 +965,13 @@
     "descripcion": "Jeans Blanco Talla 38 H&M",
     "marca": "H&M",
     "talla": "38",
-    "precio": 5000,
+    "precio": 2000,
     "nuevo": false,
     "fotos": [
       "I72_1.jpg"
     ],
-    "grupo": "CLOSET"
+    "grupo": "REMATE FINAL",
+    "precioAnterior": 5000
   },
   {
     "item": "I73",
@@ -1083,12 +1110,13 @@
     "descripcion": "Blazer Blanco Talla M H&M",
     "marca": "H&M",
     "talla": "M",
-    "precio": 5000,
+    "precio": 1000,
     "nuevo": false,
     "fotos": [
       "I83_1.jpg"
     ],
-    "grupo": "CLOSET"
+    "grupo": "REMATE FINAL",
+    "precioAnterior": 5000
   },
   {
     "item": "I84",
@@ -1096,12 +1124,13 @@
     "descripcion": "Chaqueta Jeans Ovesize Vintage Pepsi Talla L",
     "marca": "",
     "talla": "L",
-    "precio": 5000,
+    "precio": 2000,
     "nuevo": false,
     "fotos": [
       "I84_1.jpg"
     ],
-    "grupo": "CLOSET"
+    "grupo": "REMATE FINAL",
+    "precioAnterior": 5000
   },
   {
     "item": "I85",
@@ -1109,12 +1138,13 @@
     "descripcion": "Vestido Café Largo Talla M Shein",
     "marca": "",
     "talla": "M",
-    "precio": 5000,
+    "precio": 2000,
     "nuevo": true,
     "fotos": [
       "I85_1.jpg"
     ],
-    "grupo": "CLOSET"
+    "grupo": "REMATE FINAL",
+    "precioAnterior": 5000
   },
   {
     "item": "I86",
@@ -1148,12 +1178,13 @@
     "descripcion": "Top Negro Talla S H&M",
     "marca": "H&M",
     "talla": "S",
-    "precio": 5000,
+    "precio": 2000,
     "nuevo": false,
     "fotos": [
       "I88_1.jpg"
     ],
-    "grupo": "CLOSET"
+    "grupo": "REMATE FINAL",
+    "precioAnterior": 5000
   },
   {
     "item": "I89",
@@ -1294,12 +1325,13 @@
     "descripcion": "Jeans Straight Café Zara Talla 36",
     "marca": "Zara",
     "talla": "36",
-    "precio": 10000,
+    "precio": 2000,
     "nuevo": false,
     "fotos": [
       "I99_1.jpg"
     ],
-    "grupo": "CLOSET"
+    "grupo": "REMATE FINAL",
+    "precioAnterior": 10000
   },
   {
     "item": "I100",
@@ -1503,12 +1535,13 @@
     "descripcion": "Polera Manga Corta Verde Musgo Talla M",
     "marca": "",
     "talla": "M",
-    "precio": 2000,
+    "precio": 1000,
     "nuevo": true,
     "fotos": [
       "I115_1.jpg"
     ],
-    "grupo": "CLOSET"
+    "grupo": "REMATE FINAL",
+    "precioAnterior": 2000
   },
   {
     "item": "I116",
@@ -1542,12 +1575,13 @@
     "descripcion": "Camisa Leñadora Café Talla L",
     "marca": "",
     "talla": "L",
-    "precio": 2000,
+    "precio": 1000,
     "nuevo": false,
     "fotos": [
       "I118_1.jpg"
     ],
-    "grupo": "CLOSET"
+    "grupo": "REMATE FINAL",
+    "precioAnterior": 2000
   },
   {
     "item": "I119",
@@ -1555,13 +1589,14 @@
     "descripcion": "Top Animal Print Talla S",
     "marca": "",
     "talla": "S",
-    "precio": 2000,
+    "precio": 1000,
     "nuevo": false,
     "fotos": [
       "I119_1.jpg",
       "I119_2.jpg"
     ],
-    "grupo": "CLOSET"
+    "grupo": "REMATE FINAL",
+    "precioAnterior": 2000
   },
   {
     "item": "I120",
@@ -1569,12 +1604,13 @@
     "descripcion": "Top Blanco Cerezas Talla M",
     "marca": "",
     "talla": "M",
-    "precio": 2000,
+    "precio": 1000,
     "nuevo": false,
     "fotos": [
       "I120_1.jpg"
     ],
-    "grupo": "CLOSET"
+    "grupo": "REMATE FINAL",
+    "precioAnterior": 2000
   },
   {
     "item": "I121",
@@ -1582,13 +1618,14 @@
     "descripcion": "Polera Blanca Arremangada Sybilla Talla XS",
     "marca": "Sybilla",
     "talla": "XS",
-    "precio": 2000,
+    "precio": 1000,
     "nuevo": true,
     "fotos": [
       "I121_2.jpg",
       "I121_1.jpg"
     ],
-    "grupo": "CLOSET"
+    "grupo": "REMATE FINAL",
+    "precioAnterior": 2000
   },
   {
     "item": "I122",
@@ -1596,12 +1633,13 @@
     "descripcion": "Vestido Negro Largo H&M Talla S",
     "marca": "H&M",
     "talla": "S",
-    "precio": 2000,
+    "precio": 1000,
     "nuevo": false,
     "fotos": [
       "I122_1.jpg"
     ],
-    "grupo": "CLOSET"
+    "grupo": "REMATE FINAL",
+    "precioAnterior": 2000
   },
   {
     "item": "I123",
@@ -1609,12 +1647,13 @@
     "descripcion": "Vestido Fucsia tipo satín - Talla M",
     "marca": "",
     "talla": "M",
-    "precio": 2000,
+    "precio": 1000,
     "nuevo": false,
     "fotos": [
       "I123_1.jpg"
     ],
-    "grupo": "CLOSET"
+    "grupo": "REMATE FINAL",
+    "precioAnterior": 2000
   },
   {
     "item": "I124",
@@ -1636,12 +1675,13 @@
     "descripcion": "Blusa Rosa Palo Opposite Talla XS",
     "marca": "",
     "talla": "XS",
-    "precio": 2000,
+    "precio": 1000,
     "nuevo": false,
     "fotos": [
       "I125_1.jpg"
     ],
-    "grupo": "CLOSET"
+    "grupo": "REMATE FINAL",
+    "precioAnterior": 2000
   },
   {
     "item": "I126",
@@ -1662,12 +1702,13 @@
     "descripcion": "Blusa Blanca Cropped Talla M H&M",
     "marca": "H&M",
     "talla": "M",
-    "precio": 2000,
+    "precio": 1000,
     "nuevo": false,
     "fotos": [
       "I127_1.jpg"
     ],
-    "grupo": "CLOSET"
+    "grupo": "REMATE FINAL",
+    "precioAnterior": 2000
   },
   {
     "item": "I128",
@@ -1675,12 +1716,13 @@
     "descripcion": "Polera Blanca Estampada H&M Talla XL",
     "marca": "H&M",
     "talla": "XL",
-    "precio": 2000,
+    "precio": 1000,
     "nuevo": false,
     "fotos": [
       "I128_1.jpg"
     ],
-    "grupo": "CLOSET"
+    "grupo": "REMATE FINAL",
+    "precioAnterior": 2000
   },
   {
     "item": "I129",
@@ -1688,12 +1730,13 @@
     "descripcion": "Bluza Negra_Puntos Blancos Talla XL",
     "marca": "",
     "talla": "XL",
-    "precio": 2000,
+    "precio": 1000,
     "nuevo": false,
     "fotos": [
       "I129_1.jpg"
     ],
-    "grupo": "CLOSET"
+    "grupo": "REMATE FINAL",
+    "precioAnterior": 2000
   },
   {
     "item": "I130",
@@ -1753,12 +1796,13 @@
     "descripcion": "Vestido Manga Larga Corto Naranjo H&M Talla L",
     "marca": "H&M",
     "talla": "L",
-    "precio": 2000,
+    "precio": 1000,
     "nuevo": false,
     "fotos": [
       "I134_1.jpg"
     ],
-    "grupo": "CLOSET"
+    "grupo": "REMATE FINAL",
+    "precioAnterior": 2000
   },
   {
     "item": "I135",
@@ -1766,12 +1810,13 @@
     "descripcion": "Polera Flores Cropped Talla M",
     "marca": "",
     "talla": "M",
-    "precio": 2000,
+    "precio": 1000,
     "nuevo": false,
     "fotos": [
       "I135_1.jpg"
     ],
-    "grupo": "CLOSET"
+    "grupo": "REMATE FINAL",
+    "precioAnterior": 2000
   },
   {
     "item": "I136",
@@ -1792,12 +1837,13 @@
     "descripcion": "Top Beige H&M Talla S",
     "marca": "H&M",
     "talla": "S",
-    "precio": 2000,
+    "precio": 1000,
     "nuevo": false,
     "fotos": [
       "I137_1.jpg"
     ],
-    "grupo": "CLOSET"
+    "grupo": "REMATE FINAL",
+    "precioAnterior": 2000
   },
   {
     "item": "I138",
@@ -1844,12 +1890,13 @@
     "descripcion": "Blusa Burdeo_Puntos Talla XL",
     "marca": "",
     "talla": "XL",
-    "precio": 2000,
+    "precio": 1000,
     "nuevo": false,
     "fotos": [
       "I141_1.jpg"
     ],
-    "grupo": "CLOSET"
+    "grupo": "REMATE FINAL",
+    "precioAnterior": 2000
   },
   {
     "item": "I142",
@@ -1857,12 +1904,13 @@
     "descripcion": "Blusa Botones Puntos Talla M",
     "marca": "",
     "talla": "M",
-    "precio": 2000,
+    "precio": 1000,
     "nuevo": false,
     "fotos": [
       "I142_1.jpg"
     ],
-    "grupo": "CLOSET"
+    "grupo": "REMATE FINAL",
+    "precioAnterior": 2000
   },
   {
     "item": "I143",
@@ -1896,12 +1944,13 @@
     "descripcion": "Blusa Negra Amarre Talla M",
     "marca": "",
     "talla": "M",
-    "precio": 2000,
+    "precio": 1000,
     "nuevo": false,
     "fotos": [
       "I145_1.jpg"
     ],
-    "grupo": "CLOSET"
+    "grupo": "REMATE FINAL",
+    "precioAnterior": 2000
   },
   {
     "item": "I146",
@@ -1936,12 +1985,13 @@
     "descripcion": "Falda Short Negra Talla S",
     "marca": "",
     "talla": "S",
-    "precio": 2000,
+    "precio": 1000,
     "nuevo": false,
     "fotos": [
       "I148_1.jpg"
     ],
-    "grupo": "CLOSET"
+    "grupo": "REMATE FINAL",
+    "precioAnterior": 2000
   },
   {
     "item": "I149",
@@ -1962,12 +2012,13 @@
     "descripcion": "Short Rojos Zara Talla S",
     "marca": "Zara",
     "talla": "S",
-    "precio": 2000,
+    "precio": 1000,
     "nuevo": false,
     "fotos": [
       "I150_1.jpg"
     ],
-    "grupo": "CLOSET"
+    "grupo": "REMATE FINAL",
+    "precioAnterior": 2000
   },
   {
     "item": "I151",
@@ -1975,12 +2026,13 @@
     "descripcion": "Falda Gris Grafito Talla 38",
     "marca": "",
     "talla": "38",
-    "precio": 2000,
+    "precio": 1000,
     "nuevo": false,
     "fotos": [
       "I151_1.jpg"
     ],
-    "grupo": "CLOSET"
+    "grupo": "REMATE FINAL",
+    "precioAnterior": 2000
   },
   {
     "item": "I152",
@@ -2001,12 +2053,13 @@
     "descripcion": "Falda Larga Blanca Opposite Talla XS",
     "marca": "",
     "talla": "XS",
-    "precio": 2000,
+    "precio": 1000,
     "nuevo": false,
     "fotos": [
       "I153_1.jpg"
     ],
-    "grupo": "CLOSET"
+    "grupo": "REMATE FINAL",
+    "precioAnterior": 2000
   },
   {
     "item": "I154",
@@ -2014,12 +2067,13 @@
     "descripcion": "Vestido Colores Largo Talla L",
     "marca": "",
     "talla": "L",
-    "precio": 2000,
+    "precio": 1000,
     "nuevo": false,
     "fotos": [
       "I154_1.jpg"
     ],
-    "grupo": "CLOSET"
+    "grupo": "REMATE FINAL",
+    "precioAnterior": 2000
   },
   {
     "item": "I155",
@@ -2027,12 +2081,13 @@
     "descripcion": "Top Verde Croche H&M Talla 38",
     "marca": "H&M",
     "talla": "38",
-    "precio": 2000,
+    "precio": 1000,
     "nuevo": true,
     "fotos": [
       "I155_1.jpg"
     ],
-    "grupo": "CLOSET"
+    "grupo": "REMATE FINAL",
+    "precioAnterior": 2000
   },
   {
     "item": "I156",
@@ -2095,13 +2150,14 @@
     "descripcion": "Sandalias Beige H&M Talla 39",
     "marca": "H&M",
     "talla": "39",
-    "precio": 5000,
+    "precio": 2000,
     "nuevo": false,
     "fotos": [
       "I160_1.jpg",
       "I160_2.jpg"
     ],
-    "grupo": "CLOSET"
+    "grupo": "REMATE FINAL",
+    "precioAnterior": 5000
   },
   {
     "item": "I161",
@@ -2109,13 +2165,14 @@
     "descripcion": "Zapatillas Running Nike Vomero 17 256km 25.5 cm",
     "marca": "Nike",
     "talla": "",
-    "precio": 15000,
+    "precio": 5000,
     "nuevo": false,
     "fotos": [
       "I161_1.jpg",
       "I161_2.jpg"
     ],
-    "grupo": "CLOSET"
+    "grupo": "REMATE FINAL",
+    "precioAnterior": 15000
   },
   {
     "item": "I162",
@@ -2123,14 +2180,15 @@
     "descripcion": "Botas Negras Altas Talla 39",
     "marca": "",
     "talla": "39",
-    "precio": 10000,
+    "precio": 5000,
     "nuevo": false,
     "fotos": [
       "I162_1.jpg",
       "I162_2.jpg",
       "I162_3.jpg"
     ],
-    "grupo": "CLOSET"
+    "grupo": "REMATE FINAL",
+    "precioAnterior": 10000
   },
   {
     "item": "I163",
@@ -2138,13 +2196,14 @@
     "descripcion": "Bototos Cuero Romano Talla 39",
     "marca": "",
     "talla": "39",
-    "precio": 15000,
+    "precio": 5000,
     "nuevo": false,
     "fotos": [
       "I163_1.jpg",
       "I163_2.jpg"
     ],
-    "grupo": "CLOSET"
+    "grupo": "REMATE FINAL",
+    "precioAnterior": 15000
   },
   {
     "item": "I164",
@@ -2165,12 +2224,13 @@
     "descripcion": "Havaianas La Sirenita Talla 39_40",
     "marca": "",
     "talla": "39_40",
-    "precio": 5000,
+    "precio": 1000,
     "nuevo": false,
     "fotos": [
       "I165_1.jpg"
     ],
-    "grupo": "CLOSET"
+    "grupo": "REMATE FINAL",
+    "precioAnterior": 5000
   },
   {
     "item": "I166",
@@ -2178,12 +2238,13 @@
     "descripcion": "Havaianas Celeste Talla 39_40",
     "marca": "",
     "talla": "39_40",
-    "precio": 5000,
+    "precio": 1000,
     "nuevo": false,
     "fotos": [
       "I166_1.jpg"
     ],
-    "grupo": "CLOSET"
+    "grupo": "REMATE FINAL",
+    "precioAnterior": 5000
   },
   {
     "item": "I167",
@@ -2205,13 +2266,14 @@
     "descripcion": "Zapatillas Adidas Sportswear Talla 39",
     "marca": "Adidas",
     "talla": "39",
-    "precio": 10000,
+    "precio": 5000,
     "nuevo": false,
     "fotos": [
       "I168_1.jpg",
       "I168_2.jpg"
     ],
-    "grupo": "CLOSET"
+    "grupo": "REMATE FINAL",
+    "precioAnterior": 10000
   },
   {
     "item": "I169",
@@ -2233,12 +2295,13 @@
     "descripcion": "Sandalias Talla 39",
     "marca": "",
     "talla": "39",
-    "precio": 2000,
+    "precio": 1000,
     "nuevo": false,
     "fotos": [
       "I170_1.jpg"
     ],
-    "grupo": "CLOSET"
+    "grupo": "REMATE FINAL",
+    "precioAnterior": 2000
   },
   {
     "item": "I171",
@@ -2246,13 +2309,14 @@
     "descripcion": "Bototos Blancos Steve Madden Talla 39",
     "marca": "",
     "talla": "39",
-    "precio": 10000,
+    "precio": 5000,
     "nuevo": false,
     "fotos": [
       "I171_1.jpg",
       "I171_2.jpg"
     ],
-    "grupo": "CLOSET"
+    "grupo": "REMATE FINAL",
+    "precioAnterior": 10000
   },
   {
     "item": "I172",
@@ -2274,13 +2338,14 @@
     "descripcion": "Zapatillas Running Supernova Adidas Talla 9 US",
     "marca": "Adidas",
     "talla": "9",
-    "precio": 10000,
+    "precio": 5000,
     "nuevo": false,
     "fotos": [
       "I173_1.jpg",
       "I173_2.jpg"
     ],
-    "grupo": "CLOSET"
+    "grupo": "REMATE FINAL",
+    "precioAnterior": 10000
   },
   {
     "item": "I174",
@@ -2288,13 +2353,14 @@
     "descripcion": "Ballerinas Negras Tachas Talla 40",
     "marca": "",
     "talla": "40",
-    "precio": 5000,
+    "precio": 2500,
     "nuevo": false,
     "fotos": [
       "I174_1.jpg",
       "I174_2.jpg"
     ],
-    "grupo": "CLOSET"
+    "grupo": "REMATE FINAL",
+    "precioAnterior": 5000
   },
   {
     "item": "I175",
@@ -2302,13 +2368,14 @@
     "descripcion": "Zapatos Bajos Formales Talla 40",
     "marca": "",
     "talla": "40",
-    "precio": 5000,
+    "precio": 2500,
     "nuevo": false,
     "fotos": [
       "I175_1.jpg",
       "I175_2.jpg"
     ],
-    "grupo": "CLOSET"
+    "grupo": "REMATE FINAL",
+    "precioAnterior": 5000
   },
   {
     "item": "I176",
@@ -2316,13 +2383,14 @@
     "descripcion": "Sandalias Negras Opposite Talla 39",
     "marca": "",
     "talla": "39",
-    "precio": 5000,
+    "precio": 2000,
     "nuevo": false,
     "fotos": [
       "I176_1.jpg",
       "I176_2.jpg"
     ],
-    "grupo": "CLOSET"
+    "grupo": "REMATE FINAL",
+    "precioAnterior": 5000
   },
   {
     "item": "I177",
@@ -2330,13 +2398,14 @@
     "descripcion": "Botines Chiporro Café Opposite Talla 40",
     "marca": "",
     "talla": "40",
-    "precio": 5000,
+    "precio": 2000,
     "nuevo": false,
     "fotos": [
       "I177_1.jpg",
       "I177_2.jpg"
     ],
-    "grupo": "CLOSET"
+    "grupo": "REMATE FINAL",
+    "precioAnterior": 5000
   },
   {
     "item": "I178",
@@ -2426,12 +2495,13 @@
     "descripcion": "Falda Diseño Rosado_Beige Stradivarius Talla S",
     "marca": "Stradivarius",
     "talla": "S",
-    "precio": 2000,
+    "precio": 1000,
     "nuevo": false,
     "fotos": [
       "I184_1.jpg"
     ],
-    "grupo": "CLOSET"
+    "grupo": "REMATE FINAL",
+    "precioAnterior": 2000
   },
   {
     "item": "I185",
@@ -2439,12 +2509,13 @@
     "descripcion": "Poleron Minnie Mouse Gris Talla S",
     "marca": "",
     "talla": "S",
-    "precio": 2000,
+    "precio": 1000,
     "nuevo": false,
     "fotos": [
       "I185_1.jpg"
     ],
-    "grupo": "CLOSET"
+    "grupo": "REMATE FINAL",
+    "precioAnterior": 2000
   },
   {
     "item": "I186",
@@ -2491,12 +2562,13 @@
     "descripcion": "Short Rayas Café BR Talla 36",
     "marca": "",
     "talla": "36",
-    "precio": 5000,
+    "precio": 2000,
     "nuevo": false,
     "fotos": [
       "I189_1.jpg"
     ],
-    "grupo": "CLOSET"
+    "grupo": "REMATE FINAL",
+    "precioAnterior": 5000
   },
   {
     "item": "I190",
@@ -2517,12 +2589,13 @@
     "descripcion": "Falda Midi Café Tipo Satin Talla S",
     "marca": "",
     "talla": "S",
-    "precio": 5000,
+    "precio": 2000,
     "nuevo": false,
     "fotos": [
       "I191_1.jpg"
     ],
-    "grupo": "CLOSET"
+    "grupo": "REMATE FINAL",
+    "precioAnterior": 5000
   },
   {
     "item": "I192",
@@ -2584,12 +2657,13 @@
     "descripcion": "50 Sombras de Grey (Español)",
     "marca": "",
     "talla": "",
-    "precio": 5000,
+    "precio": 3000,
     "nuevo": false,
     "fotos": [
       "L3_1.jpg"
     ],
-    "grupo": "LIBROS"
+    "grupo": "REMATE FINAL",
+    "precioAnterior": 5000
   },
   {
     "item": "L4",
@@ -2610,12 +2684,13 @@
     "descripcion": "Alas (Español)",
     "marca": "",
     "talla": "",
-    "precio": 5000,
+    "precio": 3000,
     "nuevo": false,
     "fotos": [
       "L5_1.jpg"
     ],
-    "grupo": "LIBROS"
+    "grupo": "REMATE FINAL",
+    "precioAnterior": 5000
   },
   {
     "item": "L6",
@@ -2623,12 +2698,13 @@
     "descripcion": "Alicia en el país de las maravillas (Español)",
     "marca": "",
     "talla": "",
-    "precio": 5000,
+    "precio": 3000,
     "nuevo": false,
     "fotos": [
       "L6_1.jpg"
     ],
-    "grupo": "LIBROS"
+    "grupo": "REMATE FINAL",
+    "precioAnterior": 5000
   },
   {
     "item": "L7",
@@ -2636,12 +2712,13 @@
     "descripcion": "Antigona (Español)",
     "marca": "",
     "talla": "",
-    "precio": 5000,
+    "precio": 3000,
     "nuevo": false,
     "fotos": [
       "L7_1.jpg"
     ],
-    "grupo": "LIBROS"
+    "grupo": "REMATE FINAL",
+    "precioAnterior": 5000
   },
   {
     "item": "L8",
@@ -2649,12 +2726,13 @@
     "descripcion": "Apologia de Socrates (Español)",
     "marca": "",
     "talla": "",
-    "precio": 5000,
+    "precio": 3000,
     "nuevo": false,
     "fotos": [
       "L8_1.jpg"
     ],
-    "grupo": "LIBROS"
+    "grupo": "REMATE FINAL",
+    "precioAnterior": 5000
   },
   {
     "item": "L9",
@@ -2675,12 +2753,13 @@
     "descripcion": "Buscando a Alaska (Español)",
     "marca": "",
     "talla": "",
-    "precio": 5000,
+    "precio": 3000,
     "nuevo": false,
     "fotos": [
       "L10_1.jpg"
     ],
-    "grupo": "LIBROS"
+    "grupo": "REMATE FINAL",
+    "precioAnterior": 5000
   },
   {
     "item": "L11",
@@ -2701,12 +2780,13 @@
     "descripcion": "Casa de Muñecas (Español)",
     "marca": "",
     "talla": "",
-    "precio": 5000,
+    "precio": 3000,
     "nuevo": false,
     "fotos": [
       "L12_1.jpg"
     ],
-    "grupo": "LIBROS"
+    "grupo": "REMATE FINAL",
+    "precioAnterior": 5000
   },
   {
     "item": "L13",
@@ -2727,12 +2807,13 @@
     "descripcion": "Destino (Español)",
     "marca": "",
     "talla": "",
-    "precio": 5000,
+    "precio": 3000,
     "nuevo": false,
     "fotos": [
       "L14_1.jpg"
     ],
-    "grupo": "LIBROS"
+    "grupo": "REMATE FINAL",
+    "precioAnterior": 5000
   },
   {
     "item": "L15",
@@ -2753,12 +2834,13 @@
     "descripcion": "El Avaro _ El burgues gentilhombre (Español)",
     "marca": "",
     "talla": "",
-    "precio": 5000,
+    "precio": 3000,
     "nuevo": false,
     "fotos": [
       "L16_1.jpg"
     ],
-    "grupo": "LIBROS"
+    "grupo": "REMATE FINAL",
+    "precioAnterior": 5000
   },
   {
     "item": "L17",
@@ -2766,12 +2848,13 @@
     "descripcion": "El Beso de la Mujer Araña (Español)",
     "marca": "",
     "talla": "",
-    "precio": 5000,
+    "precio": 3000,
     "nuevo": false,
     "fotos": [
       "L17_1.jpg"
     ],
-    "grupo": "LIBROS"
+    "grupo": "REMATE FINAL",
+    "precioAnterior": 5000
   },
   {
     "item": "L18",
@@ -2831,12 +2914,13 @@
     "descripcion": "El Niño con el Pijama a Rayas (Español)",
     "marca": "",
     "talla": "",
-    "precio": 5000,
+    "precio": 3000,
     "nuevo": false,
     "fotos": [
       "L22_1.jpg"
     ],
-    "grupo": "LIBROS"
+    "grupo": "REMATE FINAL",
+    "precioAnterior": 5000
   },
   {
     "item": "L23",
@@ -2883,12 +2967,13 @@
     "descripcion": "En Nombre del Amor - Nicholas Sparks (Español)",
     "marca": "",
     "talla": "",
-    "precio": 5000,
+    "precio": 3000,
     "nuevo": false,
     "fotos": [
       "L26_1.jpg"
     ],
-    "grupo": "LIBROS"
+    "grupo": "REMATE FINAL",
+    "precioAnterior": 5000
   },
   {
     "item": "L27",
@@ -2909,12 +2994,13 @@
     "descripcion": "Game Of Thrones (Inglés)",
     "marca": "",
     "talla": "",
-    "precio": 5000,
+    "precio": 3000,
     "nuevo": false,
     "fotos": [
       "L28_1.jpg"
     ],
-    "grupo": "LIBROS"
+    "grupo": "REMATE FINAL",
+    "precioAnterior": 5000
   },
   {
     "item": "L29",
@@ -2948,12 +3034,13 @@
     "descripcion": "Hatchet - Gary Paulsen (Inglés)",
     "marca": "",
     "talla": "",
-    "precio": 5000,
+    "precio": 3000,
     "nuevo": false,
     "fotos": [
       "L31_1.jpg"
     ],
-    "grupo": "LIBROS"
+    "grupo": "REMATE FINAL",
+    "precioAnterior": 5000
   },
   {
     "item": "L32",
@@ -3000,12 +3087,13 @@
     "descripcion": "La Boda - Nicholas Sparks (Español)",
     "marca": "",
     "talla": "",
-    "precio": 5000,
+    "precio": 3000,
     "nuevo": false,
     "fotos": [
       "L35_1.jpg"
     ],
-    "grupo": "LIBROS"
+    "grupo": "REMATE FINAL",
+    "precioAnterior": 5000
   },
   {
     "item": "L36",
@@ -3039,12 +3127,13 @@
     "descripcion": "La Llave de Sarah (Español)",
     "marca": "",
     "talla": "",
-    "precio": 5000,
+    "precio": 3000,
     "nuevo": false,
     "fotos": [
       "L38_1.jpg"
     ],
-    "grupo": "LIBROS"
+    "grupo": "REMATE FINAL",
+    "precioAnterior": 5000
   },
   {
     "item": "L39",
@@ -3297,17 +3386,18 @@
   },
   {
     "item": "I195",
-    "grupo": "CASA",
+    "grupo": "REMATE FINAL",
     "categoria": "Cocina",
     "descripcion": "2 Bowls Cuadrados Vidrio Ensalada",
     "marca": "",
     "talla": "",
-    "precio": 3000,
+    "precio": 1000,
     "nuevo": false,
     "fotos": [
       "I195_1.jpg",
       "I195_2.jpg"
-    ]
+    ],
+    "precioAnterior": 3000
   },
   {
     "item": "I196",
@@ -3325,16 +3415,17 @@
   },
   {
     "item": "I197",
-    "grupo": "CASA",
+    "grupo": "REMATE FINAL",
     "categoria": "Deco",
     "descripcion": "3 Funda Cojin Blancas (50x50 cms)",
     "marca": "",
     "talla": "",
-    "precio": 3000,
+    "precio": 2500,
     "nuevo": false,
     "fotos": [
       "I197_1.jpg"
-    ]
+    ],
+    "precioAnterior": 3000
   },
   {
     "item": "I198",
@@ -3520,17 +3611,18 @@
   },
   {
     "item": "I211",
-    "grupo": "CASA",
+    "grupo": "REMATE FINAL",
     "categoria": "Otros (Electro y Varios)",
     "descripcion": "Calefactor Eléctrico Ursus Trotter UT MC-20D WiFi",
     "marca": "",
     "talla": "",
-    "precio": 100000,
+    "precio": 60000,
     "nuevo": false,
     "fotos": [
       "I211_1.jpg",
       "I211_2.jpg"
-    ]
+    ],
+    "precioAnterior": 100000
   },
   {
     "item": "I212",
@@ -3573,18 +3665,19 @@
   },
   {
     "item": "I215",
-    "grupo": "CASA",
+    "grupo": "REMATE FINAL",
     "categoria": "Escritorio-Dormitorio",
     "descripcion": "Cama 2 Plazas CIC Excellence Plus",
     "marca": "",
     "talla": "",
-    "precio": 100000,
+    "precio": 50000,
     "nuevo": false,
     "fotos": [
       "I215_1.jpg",
       "I215_2.jpg",
       "I215_3.jpg"
-    ]
+    ],
+    "precioAnterior": 100000
   },
   {
     "item": "I216",
@@ -3615,16 +3708,17 @@
   },
   {
     "item": "I218",
-    "grupo": "CASA",
+    "grupo": "REMATE FINAL",
     "categoria": "Otros (Electro y Varios)",
     "descripcion": "Candado Notebook",
     "marca": "",
     "talla": "",
-    "precio": 5000,
+    "precio": 2000,
     "nuevo": false,
     "fotos": [
       "I218_1.jpg"
-    ]
+    ],
+    "precioAnterior": 5000
   },
   {
     "item": "I219",
@@ -3752,16 +3846,17 @@
   },
   {
     "item": "I228",
-    "grupo": "CASA",
+    "grupo": "REMATE FINAL",
     "categoria": "Deco",
     "descripcion": "Florero Tipo Madera",
     "marca": "",
     "talla": "",
-    "precio": 2000,
+    "precio": 1000,
     "nuevo": false,
     "fotos": [
       "I228_1.jpg"
-    ]
+    ],
+    "precioAnterior": 2000
   },
   {
     "item": "I229",
@@ -3846,16 +3941,17 @@
   },
   {
     "item": "I235",
-    "grupo": "CASA",
+    "grupo": "REMATE FINAL",
     "categoria": "Deco",
     "descripcion": "Lampara de Sal (Mala)",
     "marca": "",
     "talla": "",
-    "precio": 5000,
+    "precio": 2000,
     "nuevo": false,
     "fotos": [
       "I235_1.jpg"
-    ]
+    ],
+    "precioAnterior": 5000
   },
   {
     "item": "I236",
@@ -3928,16 +4024,17 @@
   },
   {
     "item": "I241",
-    "grupo": "CASA",
+    "grupo": "REMATE FINAL",
     "categoria": "Cocina",
     "descripcion": "Lonchera Gris",
     "marca": "",
     "talla": "",
-    "precio": 3000,
+    "precio": 1000,
     "nuevo": false,
     "fotos": [
       "I241_1.jpg"
-    ]
+    ],
+    "precioAnterior": 3000
   },
   {
     "item": "I242",
@@ -4122,30 +4219,32 @@
   },
   {
     "item": "I255",
-    "grupo": "CASA",
+    "grupo": "REMATE FINAL",
     "categoria": "Plantas",
     "descripcion": "Planta 1 Exterior",
     "marca": "",
     "talla": "",
-    "precio": 5000,
+    "precio": 2000,
     "nuevo": false,
     "fotos": [
       "I255_1.jpg",
       "I255_2.jpg"
-    ]
+    ],
+    "precioAnterior": 5000
   },
   {
     "item": "I256",
-    "grupo": "CASA",
+    "grupo": "REMATE FINAL",
     "categoria": "Plantas",
     "descripcion": "Planta 1 Interior",
     "marca": "",
     "talla": "",
-    "precio": 5000,
+    "precio": 2000,
     "nuevo": false,
     "fotos": [
       "I256_1.jpg"
-    ]
+    ],
+    "precioAnterior": 5000
   },
   {
     "item": "I257",
@@ -4163,16 +4262,17 @@
   },
   {
     "item": "I258",
-    "grupo": "CASA",
+    "grupo": "REMATE FINAL",
     "categoria": "Plantas",
     "descripcion": "Planta 2 Interior",
     "marca": "",
     "talla": "",
-    "precio": 5000,
+    "precio": 2000,
     "nuevo": false,
     "fotos": [
       "I258_1.jpg"
-    ]
+    ],
+    "precioAnterior": 5000
   },
   {
     "item": "I259",
@@ -4203,29 +4303,31 @@
   },
   {
     "item": "I261",
-    "grupo": "CASA",
+    "grupo": "REMATE FINAL",
     "categoria": "Plantas",
     "descripcion": "Planta 4 Exterior",
     "marca": "",
     "talla": "",
-    "precio": 5000,
+    "precio": 2000,
     "nuevo": false,
     "fotos": [
       "I261_1.jpg"
-    ]
+    ],
+    "precioAnterior": 5000
   },
   {
     "item": "I262",
-    "grupo": "CASA",
+    "grupo": "REMATE FINAL",
     "categoria": "Plantas",
     "descripcion": "Planta 4 Interior",
     "marca": "",
     "talla": "",
-    "precio": 5000,
+    "precio": 2000,
     "nuevo": false,
     "fotos": [
       "I262_1.jpg"
-    ]
+    ],
+    "precioAnterior": 5000
   },
   {
     "item": "I263",
@@ -4242,30 +4344,32 @@
   },
   {
     "item": "I264",
-    "grupo": "CASA",
+    "grupo": "REMATE FINAL",
     "categoria": "Plantas",
     "descripcion": "Planta 5 Interior",
     "marca": "",
     "talla": "",
-    "precio": 5000,
+    "precio": 2000,
     "nuevo": false,
     "fotos": [
       "I264_1.jpg",
       "I264_2.jpg"
-    ]
+    ],
+    "precioAnterior": 5000
   },
   {
     "item": "I265",
-    "grupo": "CASA",
+    "grupo": "REMATE FINAL",
     "categoria": "Plantas",
     "descripcion": "Planta 6 Exterior (Artificial)",
     "marca": "",
     "talla": "",
-    "precio": 5000,
+    "precio": 2000,
     "nuevo": false,
     "fotos": [
       "I265_1.jpg"
-    ]
+    ],
+    "precioAnterior": 5000
   },
   {
     "item": "I266",
@@ -4282,17 +4386,18 @@
   },
   {
     "item": "I267",
-    "grupo": "CASA",
+    "grupo": "REMATE FINAL",
     "categoria": "Plantas",
     "descripcion": "Planta 7 Exterior",
     "marca": "",
     "talla": "",
-    "precio": 5000,
+    "precio": 2000,
     "nuevo": false,
     "fotos": [
       "I267_1.jpg",
       "I267_2.jpg"
-    ]
+    ],
+    "precioAnterior": 5000
   },
   {
     "item": "I268",
@@ -4349,29 +4454,32 @@
   },
   {
     "item": "I272",
-    "grupo": "CASA",
+    "grupo": "REMATE FINAL",
     "categoria": "Deco",
     "descripcion": "Portavelas Casaideas Beige",
     "marca": "",
     "talla": "",
-    "precio": 2000,
+    "precio": 500,
     "nuevo": false,
     "fotos": [
       "I272_1.jpg"
-    ]
+    ],
+    "precioAnterior": 2000,
+    "notaPrecio": "c/u $500 · el par $1.000"
   },
   {
     "item": "I273",
-    "grupo": "CASA",
+    "grupo": "REMATE FINAL",
     "categoria": "Deco",
     "descripcion": "Portavelas Dorado",
     "marca": "",
     "talla": "",
-    "precio": 1000,
+    "precio": 500,
     "nuevo": false,
     "fotos": [
       "I273_1.jpg"
-    ]
+    ],
+    "precioAnterior": 1000
   },
   {
     "item": "I274",
@@ -4504,17 +4612,18 @@
   },
   {
     "item": "I283",
-    "grupo": "CASA",
+    "grupo": "REMATE FINAL",
     "categoria": "Deco",
     "descripcion": "Set 2 Portavelas Cuero con Diseño",
     "marca": "",
     "talla": "",
-    "precio": 2000,
+    "precio": 500,
     "nuevo": false,
     "fotos": [
       "I283_1.jpg",
       "I283_2.jpg"
-    ]
+    ],
+    "precioAnterior": 2000
   },
   {
     "item": "I284",
@@ -4548,16 +4657,17 @@
   },
   {
     "item": "I286",
-    "grupo": "CASA",
+    "grupo": "REMATE FINAL",
     "categoria": "Deco",
     "descripcion": "Set 2 Velas con Flores",
     "marca": "",
     "talla": "",
-    "precio": 5000,
+    "precio": 3000,
     "nuevo": false,
     "fotos": [
       "I286_1.jpg"
-    ]
+    ],
+    "precioAnterior": 5000
   },
   {
     "item": "I287",
@@ -4632,18 +4742,19 @@
   },
   {
     "item": "I292",
-    "grupo": "CASA",
+    "grupo": "REMATE FINAL",
     "categoria": "Living-Comedor-Terraza",
     "descripcion": "Set 3 Pisos Metalicos Grises",
     "marca": "",
     "talla": "",
-    "precio": 30000,
+    "precio": 20000,
     "nuevo": false,
     "fotos": [
       "I292_1.jpg",
       "I292_2.jpg",
       "I292_3.jpg"
-    ]
+    ],
+    "precioAnterior": 30000
   },
   {
     "item": "I293",
@@ -4769,12 +4880,12 @@
   },
   {
     "item": "I302",
-    "grupo": "CASA",
+    "grupo": "REMATE FINAL",
     "categoria": "Cocina",
     "descripcion": "Set Loza Blanco con Diseño",
     "marca": "",
     "talla": "",
-    "precio": 20000,
+    "precio": 10000,
     "nuevo": false,
     "fotos": [
       "I302_5.jpg",
@@ -4782,7 +4893,8 @@
       "I302_2.jpg",
       "I302_3.jpg",
       "I302_4.jpg"
-    ]
+    ],
+    "precioAnterior": 20000
   },
   {
     "item": "I303",
@@ -5039,5 +5151,529 @@
     "fotos": [
       "I318_1.jpg"
     ]
+  },
+  {
+    "item": "I319",
+    "grupo": "REMATE FINAL",
+    "categoria": "Cocina",
+    "descripcion": "Bandeja Picoteo _Bambú_",
+    "marca": "",
+    "talla": "",
+    "precio": 2000,
+    "nuevo": false,
+    "fotos": [
+      "I319_1.jpg"
+    ],
+    "notaPrecio": null
+  },
+  {
+    "item": "I320",
+    "grupo": "REMATE FINAL",
+    "categoria": "Carteras-Mochilas-Bananos-Bolsos",
+    "descripcion": "Bolso Chico Morado HEAD",
+    "marca": "",
+    "talla": "",
+    "precio": 3000,
+    "nuevo": false,
+    "fotos": [
+      "I320_1.jpg",
+      "I320_2.jpg"
+    ],
+    "notaPrecio": null
+  },
+  {
+    "item": "I321",
+    "grupo": "REMATE FINAL",
+    "categoria": "Carteras-Mochilas-Bananos-Bolsos",
+    "descripcion": "Bolso Militar Grande Nike",
+    "marca": "",
+    "talla": "",
+    "precio": 5000,
+    "nuevo": false,
+    "fotos": [
+      "I321_1.jpg",
+      "I321_2.jpg"
+    ],
+    "notaPrecio": null
+  },
+  {
+    "item": "I322",
+    "grupo": "REMATE FINAL",
+    "categoria": "Deco",
+    "descripcion": "Calabera Mexicana Deco",
+    "marca": "",
+    "talla": "",
+    "precio": 3000,
+    "nuevo": false,
+    "fotos": [
+      "I322_1.jpg"
+    ],
+    "notaPrecio": null
+  },
+  {
+    "item": "I323",
+    "grupo": "REMATE FINAL",
+    "categoria": "Cocina",
+    "descripcion": "Colador Plegable",
+    "marca": "",
+    "talla": "",
+    "precio": 1500,
+    "nuevo": false,
+    "fotos": [
+      "I323_1.jpg"
+    ],
+    "notaPrecio": null
+  },
+  {
+    "item": "I324",
+    "grupo": "REMATE FINAL",
+    "categoria": "Ropa",
+    "descripcion": "Crop Top RojoBlanco Talla M",
+    "marca": "",
+    "talla": "",
+    "precio": 3000,
+    "nuevo": true,
+    "fotos": [
+      "I324_1.jpg"
+    ],
+    "notaPrecio": null
+  },
+  {
+    "item": "I325",
+    "grupo": "REMATE FINAL",
+    "categoria": "Ropa",
+    "descripcion": "Crop Top Stranger Things Talla S",
+    "marca": "",
+    "talla": "",
+    "precio": 1000,
+    "nuevo": false,
+    "fotos": [
+      "I325_1.jpg"
+    ],
+    "notaPrecio": null
+  },
+  {
+    "item": "I326",
+    "grupo": "REMATE FINAL",
+    "categoria": "Deco",
+    "descripcion": "Cuadro Mapa Londres",
+    "marca": "",
+    "talla": "",
+    "precio": 3000,
+    "nuevo": false,
+    "fotos": [
+      "I326_1.jpg"
+    ],
+    "notaPrecio": null
+  },
+  {
+    "item": "I327",
+    "grupo": "REMATE FINAL",
+    "categoria": "Cocina",
+    "descripcion": "Individual Tejido Beige",
+    "marca": "",
+    "talla": "",
+    "precio": 2000,
+    "nuevo": false,
+    "fotos": [
+      "I327_1.jpg"
+    ],
+    "notaPrecio": null
+  },
+  {
+    "item": "I328",
+    "grupo": "REMATE FINAL",
+    "categoria": "Ropa",
+    "descripcion": "Jeans Negro Nicopoly Talla 36 (más 34)",
+    "marca": "",
+    "talla": "",
+    "precio": 2000,
+    "nuevo": false,
+    "fotos": [
+      "I328_1.jpg",
+      "I328_2.jpg"
+    ],
+    "notaPrecio": null
+  },
+  {
+    "item": "I329",
+    "grupo": "REMATE FINAL",
+    "categoria": "Deco",
+    "descripcion": "Lagartija Mexico Deco",
+    "marca": "",
+    "talla": "",
+    "precio": 1500,
+    "nuevo": false,
+    "fotos": [
+      "I329_1.jpg"
+    ],
+    "notaPrecio": null
+  },
+  {
+    "item": "I330",
+    "grupo": "REMATE FINAL",
+    "categoria": "Deco",
+    "descripcion": "Macetero Mini Rosado",
+    "marca": "",
+    "talla": "",
+    "precio": 1000,
+    "nuevo": false,
+    "fotos": [
+      "I330_1.jpg"
+    ],
+    "notaPrecio": null
+  },
+  {
+    "item": "I331",
+    "grupo": "REMATE FINAL",
+    "categoria": "Bufandas-Gorros",
+    "descripcion": "Maxi Bufanda Rosada",
+    "marca": "",
+    "talla": "",
+    "precio": 4000,
+    "nuevo": false,
+    "fotos": [
+      "I331_1.jpg"
+    ],
+    "notaPrecio": null
+  },
+  {
+    "item": "I332",
+    "grupo": "REMATE FINAL",
+    "categoria": "Escritorio-Dormitorio",
+    "descripcion": "Mix Plumones Sharpie_Fligo",
+    "marca": "",
+    "talla": "",
+    "precio": 10000,
+    "nuevo": false,
+    "fotos": [
+      "I332_1.jpg"
+    ],
+    "notaPrecio": null
+  },
+  {
+    "item": "I333",
+    "grupo": "REMATE FINAL",
+    "categoria": "Cocina",
+    "descripcion": "Mix Utensilios Cocina",
+    "marca": "",
+    "talla": "",
+    "precio": 3000,
+    "nuevo": false,
+    "fotos": [
+      "I333_1.jpg"
+    ],
+    "notaPrecio": null
+  },
+  {
+    "item": "I334",
+    "grupo": "REMATE FINAL",
+    "categoria": "Escritorio-Dormitorio",
+    "descripcion": "Pack Organizadores Escritorio",
+    "marca": "",
+    "talla": "",
+    "precio": 2000,
+    "nuevo": false,
+    "fotos": [
+      "I334_1.jpg"
+    ],
+    "notaPrecio": null
+  },
+  {
+    "item": "I335",
+    "grupo": "REMATE FINAL",
+    "categoria": "Ropa",
+    "descripcion": "Pantalones Tipo Sastrero Wide Leg Zara Talla S",
+    "marca": "",
+    "talla": "",
+    "precio": 2000,
+    "nuevo": false,
+    "fotos": [
+      "I335_1.jpg"
+    ],
+    "notaPrecio": null
+  },
+  {
+    "item": "I336",
+    "grupo": "REMATE FINAL",
+    "categoria": "Cocina",
+    "descripcion": "Pizarra Semanal Refrigerador",
+    "marca": "",
+    "talla": "",
+    "precio": 2000,
+    "nuevo": false,
+    "fotos": [
+      "I336_1.jpg"
+    ],
+    "notaPrecio": null
+  },
+  {
+    "item": "I337",
+    "grupo": "REMATE FINAL",
+    "categoria": "Ropa",
+    "descripcion": "Polera Rosada Talla M",
+    "marca": "",
+    "talla": "",
+    "precio": 1000,
+    "nuevo": false,
+    "fotos": [
+      "I337_1.jpg"
+    ],
+    "notaPrecio": null
+  },
+  {
+    "item": "I338",
+    "grupo": "REMATE FINAL",
+    "categoria": "Cocina",
+    "descripcion": "Porta Utensilios Cocina",
+    "marca": "",
+    "talla": "",
+    "precio": 2000,
+    "nuevo": false,
+    "fotos": [
+      "I338_1.jpg"
+    ],
+    "notaPrecio": null
+  },
+  {
+    "item": "I339",
+    "grupo": "REMATE FINAL",
+    "categoria": "Ropa Invierno",
+    "descripcion": "Primera Capa Negra Talla L",
+    "marca": "",
+    "talla": "",
+    "precio": 2000,
+    "nuevo": false,
+    "fotos": [
+      "I339_1.jpg"
+    ],
+    "notaPrecio": null
+  },
+  {
+    "item": "I340",
+    "grupo": "REMATE FINAL",
+    "categoria": "Cocina",
+    "descripcion": "Servilletero Metal",
+    "marca": "",
+    "talla": "",
+    "precio": 1000,
+    "nuevo": false,
+    "fotos": [
+      "I340_1.jpg"
+    ],
+    "notaPrecio": null
+  },
+  {
+    "item": "I341",
+    "grupo": "REMATE FINAL",
+    "categoria": "Otros (Electro y Varios)",
+    "descripcion": "Set 2 Cables HDMI-HDMI + 1 HDMI-USBC",
+    "marca": "",
+    "talla": "",
+    "precio": 2000,
+    "nuevo": false,
+    "fotos": [
+      "I341_1.jpg"
+    ],
+    "notaPrecio": null
+  },
+  {
+    "item": "I342",
+    "grupo": "REMATE FINAL",
+    "categoria": "Cocina",
+    "descripcion": "Set 2 Individuales Beige",
+    "marca": "",
+    "talla": "",
+    "precio": 3000,
+    "nuevo": false,
+    "fotos": [
+      "I342_1.jpg"
+    ],
+    "notaPrecio": null
+  },
+  {
+    "item": "I343",
+    "grupo": "REMATE FINAL",
+    "categoria": "Deco",
+    "descripcion": "Set 3 Pinturas Diamante",
+    "marca": "",
+    "talla": "",
+    "precio": 3000,
+    "nuevo": false,
+    "fotos": [
+      "I343_1.jpg"
+    ],
+    "notaPrecio": null
+  },
+  {
+    "item": "I344",
+    "grupo": "REMATE FINAL",
+    "categoria": "Cocina",
+    "descripcion": "Set 3 Tazas Diseño",
+    "marca": "",
+    "talla": "",
+    "precio": 2000,
+    "nuevo": false,
+    "fotos": [
+      "I344_1.jpg",
+      "I344_2.jpg"
+    ],
+    "notaPrecio": "c/u $1.000 · las 3 x $2.000"
+  },
+  {
+    "item": "I345",
+    "grupo": "REMATE FINAL",
+    "categoria": "Deco",
+    "descripcion": "Set 6 Marcos Negro_Plateado",
+    "marca": "",
+    "talla": "",
+    "precio": 5000,
+    "nuevo": false,
+    "fotos": [
+      "I345_1.jpg",
+      "I345_2.jpg"
+    ],
+    "notaPrecio": null
+  },
+  {
+    "item": "I346",
+    "grupo": "REMATE FINAL",
+    "categoria": "Cocina",
+    "descripcion": "Set Bandejas Pyrex",
+    "marca": "",
+    "talla": "",
+    "precio": 3000,
+    "nuevo": false,
+    "fotos": [
+      "I346_1.jpg"
+    ],
+    "notaPrecio": null
+  },
+  {
+    "item": "I347",
+    "grupo": "REMATE FINAL",
+    "categoria": "Deco",
+    "descripcion": "Set Cojines Deco",
+    "marca": "",
+    "talla": "",
+    "precio": 2000,
+    "nuevo": false,
+    "fotos": [
+      "I347_1.jpg"
+    ],
+    "notaPrecio": null
+  },
+  {
+    "item": "I348",
+    "grupo": "REMATE FINAL",
+    "categoria": "Deco",
+    "descripcion": "Set Crochet",
+    "marca": "",
+    "talla": "",
+    "precio": 5000,
+    "nuevo": false,
+    "fotos": [
+      "I348_1.jpg"
+    ],
+    "notaPrecio": null
+  },
+  {
+    "item": "I349",
+    "grupo": "REMATE FINAL",
+    "categoria": "Otros (Electro y Varios)",
+    "descripcion": "Set Mostacillas",
+    "marca": "",
+    "talla": "",
+    "precio": 2000,
+    "nuevo": false,
+    "fotos": [
+      "I349_1.jpg",
+      "I349_2.jpg"
+    ],
+    "notaPrecio": null
+  },
+  {
+    "item": "I350",
+    "grupo": "REMATE FINAL",
+    "categoria": "Deco",
+    "descripcion": "Set Organizadores Baño",
+    "marca": "",
+    "talla": "",
+    "precio": 4000,
+    "nuevo": false,
+    "fotos": [
+      "I350_1.jpg"
+    ],
+    "notaPrecio": null
+  },
+  {
+    "item": "I351",
+    "grupo": "REMATE FINAL",
+    "categoria": "Deco",
+    "descripcion": "Set Velas + Incienso",
+    "marca": "",
+    "talla": "",
+    "precio": 3000,
+    "nuevo": false,
+    "fotos": [
+      "I351_1.jpg"
+    ],
+    "notaPrecio": null
+  },
+  {
+    "item": "I352",
+    "grupo": "REMATE FINAL",
+    "categoria": "Cocina",
+    "descripcion": "Tabla _Bambú_",
+    "marca": "",
+    "talla": "",
+    "precio": 2000,
+    "nuevo": false,
+    "fotos": [
+      "I352_1.jpg"
+    ],
+    "notaPrecio": null
+  },
+  {
+    "item": "I353",
+    "grupo": "REMATE FINAL",
+    "categoria": "Cocina",
+    "descripcion": "Vaso Flores Térmico Typo",
+    "marca": "",
+    "talla": "",
+    "precio": 1500,
+    "nuevo": false,
+    "fotos": [
+      "I353_1.jpg"
+    ],
+    "notaPrecio": null
+  },
+  {
+    "item": "I354",
+    "grupo": "REMATE FINAL",
+    "categoria": "Cocina",
+    "descripcion": "Vaso Starbucks Rosado_Naranjo",
+    "marca": "",
+    "talla": "",
+    "precio": 3000,
+    "nuevo": false,
+    "fotos": [
+      "I354_1.jpg"
+    ],
+    "notaPrecio": null
+  },
+  {
+    "item": "I355",
+    "grupo": "REMATE FINAL",
+    "categoria": "Deco",
+    "descripcion": "Vela Deco",
+    "marca": "",
+    "talla": "",
+    "precio": 1000,
+    "nuevo": false,
+    "fotos": [
+      "I355_1.jpg"
+    ],
+    "notaPrecio": null
   }
 ]

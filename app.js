@@ -1,7 +1,7 @@
 const CFG = window.SITE_CONFIG;
 
-const GRUPO_ORDER = ["CLOSET", "CASA", "LIBROS"];
-const GRUPO_LABEL = { CLOSET: "👗 CLOSET", CASA: "🏠 CASA", LIBROS: "📚 LIBROS" };
+const GRUPO_ORDER = ["REMATE FINAL", "CLOSET", "CASA", "LIBROS"];
+const GRUPO_LABEL = { "REMATE FINAL": "🔥 REMATE FINAL", CLOSET: "👗 CLOSET", CASA: "🏠 CASA", LIBROS: "📚 LIBROS" };
 
 function parseCSV(text) {
   const rows = [];
@@ -110,6 +110,11 @@ function cardHTML(it, info) {
   if (it.marca) metaParts.push(it.marca);
   if (it.talla) metaParts.push("Talla " + it.talla);
 
+  const priceHTML = it.precioAnterior
+    ? `<div class="price price-remate"><span class="price-old">${formatCLP(it.precioAnterior)}</span> ${formatCLP(it.precio)}</div>`
+    : `<div class="price">${formatCLP(it.precio)}</div>`;
+  const notaPrecio = it.notaPrecio ? `<div class="nota-precio">${it.notaPrecio}</div>` : "";
+
   return `
   <div class="card ${stateClass}" data-item="${it.item}" data-cat="${it.categoria}"
        data-search="${(it.item + " " + it.descripcion + " " + it.marca + " " + it.categoria).toLowerCase()}">
@@ -124,7 +129,8 @@ function cardHTML(it, info) {
       <div class="item-no">Item #${it.item.replace(/^I/, "")}</div>
       <div class="desc">${it.descripcion}</div>
       <div class="meta">${metaParts.join(" · ")}</div>
-      <div class="price">${formatCLP(it.precio)}</div>
+      ${priceHTML}
+      ${notaPrecio}
     </div>
     <a class="buy-btn" href="${waLink(it.item, it.descripcion, it.precio)}" target="_blank">Comprar</a>
   </div>`;
