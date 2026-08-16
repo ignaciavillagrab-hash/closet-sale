@@ -69,6 +69,18 @@ header.hero p { margin: 0 0 16px; opacity: 0.9; font-size: 0.92rem; }
   margin-top: 10px;
 }
 .rules .bank strong { color: var(--accent); }
+
+@media (max-width: 640px) {
+  .rules {
+    padding: 10px 12px;
+    font-size: 0.72rem;
+    line-height: 1.3;
+  }
+  .rules h2 { font-size: 0.85rem; margin: 0 0 4px; }
+  .rules ol { margin: 0 0 6px 16px; }
+  .rules li { margin-bottom: 2px; }
+  .wa-chip { font-size: 0.75rem; padding: 2px 9px; }
+}
 .rules .note { font-size: 0.82rem; color: var(--muted); font-style: italic; margin: 4px 0; }
 
 .controls-sticky {

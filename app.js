@@ -3,6 +3,18 @@ const CFG = window.SITE_CONFIG;
 const GRUPO_ORDER = ["REMATE FINAL", "CLOSET", "CASA", "LIBROS"];
 const GRUPO_LABEL = { "REMATE FINAL": "🔥 REMATE FINAL", CLOSET: "👗 CLOSET", CASA: "🏠 CASA", LIBROS: "📚 LIBROS" };
 
+const REMATE_MACRO_ORDER = ["Casa", "Plantas", "Ropa", "Libros"];
+const ROPA_CATEGORIAS = new Set([
+  "Bufandas-Gorros", "Carteras-Mochilas-Bananos-Bolsos", "Deporte",
+  "Interior-Pijamas-Bikinis", "Ropa", "Ropa Invierno", "Ropa Verano", "Zapatos-Zapatillas"
+]);
+function remateMacro(categoria) {
+  if (categoria === "Plantas") return "Plantas";
+  if (categoria === "Libros") return "Libros";
+  if (ROPA_CATEGORIAS.has(categoria)) return "Ropa";
+  return "Casa";
+}
+
 function parseCSV(text) {
   const rows = [];
   let row = [], field = "", inQuotes = false;
@@ -264,9 +276,10 @@ async function main() {
 
     const byGrupo = {};
     filtered.forEach(it => {
+      const subKey = it.grupo === "REMATE FINAL" ? remateMacro(it.categoria) : it.categoria;
       byGrupo[it.grupo] = byGrupo[it.grupo] || {};
-      byGrupo[it.grupo][it.categoria] = byGrupo[it.grupo][it.categoria] || [];
-      byGrupo[it.grupo][it.categoria].push(it);
+      byGrupo[it.grupo][subKey] = byGrupo[it.grupo][subKey] || [];
+      byGrupo[it.grupo][subKey].push(it);
     });
 
     let html = "";
@@ -274,7 +287,10 @@ async function main() {
       const grupoItems = Object.values(byGrupo[grupo]).flat();
       const grupoTitleClass = grupo === "REMATE FINAL" ? "grupo-title grupo-title-remate" : "grupo-title";
       html += `<div class="${grupoTitleClass}">${GRUPO_LABEL[grupo] || grupo} <span class="range">(${priceRange(grupoItems)})</span></div>`;
-      Object.keys(byGrupo[grupo]).forEach(cat => {
+      const catKeys = grupo === "REMATE FINAL"
+        ? REMATE_MACRO_ORDER.filter(c => byGrupo[grupo][c])
+        : Object.keys(byGrupo[grupo]);
+      catKeys.forEach(cat => {
         const items = byGrupo[grupo][cat];
         html += `<div class="category-title">${cat} <span style="font-weight:400; font-size:0.85rem; color:var(--muted);">(${priceRange(items)})</span></div>`;
         const list = items.slice().sort((a, b) => {
