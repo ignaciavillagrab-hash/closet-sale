@@ -35,20 +35,19 @@ header.hero p { margin: 0 0 16px; opacity: 0.9; font-size: 0.92rem; }
   font-size: 0.88rem !important;
 }
 
-.big-wa-btn {
+.wa-chip {
   display: inline-flex;
   align-items: center;
-  gap: 8px;
+  gap: 6px;
   background: #25D366;
   color: #fff;
-  font-weight: 800;
-  font-size: 1rem;
-  padding: 12px 28px;
+  font-weight: 700;
+  font-size: 0.9rem;
+  padding: 4px 12px;
   border-radius: 999px;
   text-decoration: none;
-  box-shadow: 0 6px 16px rgba(0,0,0,0.18);
 }
-.big-wa-btn:hover { filter: brightness(1.05); }
+.wa-chip:hover { filter: brightness(1.05); }
 
 .rules {
   max-width: 900px;
